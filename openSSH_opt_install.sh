@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installation folder
-# /opt/openssh -
+# /opt/openssh
 #
 #
 clear
