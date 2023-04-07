@@ -67,7 +67,7 @@ $Magenta"
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 "$ENDS
 		sleep 2
-		sudo apt-get update && sudo apt full-upgrade -y && sudo autoremove -y
+		sudo apt-get update && sudo apt full-upgrade -y && sudo apt-get autoremove -y
 $Magenta"System was successfully updated."$ENDS
 		anew=yes
 		sleep 3
