@@ -60,7 +60,7 @@ $Magenta"
 "$ENDS
 			sleep 2
 			sudo apt-get update && sudo apt full-upgrade -y && sudo apt-get autoremove -y
-$Magenta"The System was successfully updated."$ENDS
+			echo -e \033[3;00;35m "The System was successfully updated." \033[0m
 			anew=yes
 			sleep 3
 			clear
