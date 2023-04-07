@@ -132,15 +132,15 @@ $Magenta"
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 "$ENDS
 			cd ~/
-$Magenta"Enter an openSSH version e.g. 9.2p1 : "$ENDS
+			echo -en "\033[3;00;36m Enter an openSSH version e.g. 9.3p1 : \033[0m"
 			read VER
 			echo openssh-${VER}
 
-$Magenta"This is your install directory." $ENDS && pwd && echo ""
+			echo -en "\033[3;00;36m This is your install directory. \033[0m" && pwd && echo ""
 			sleep 2
 			sudo wget https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-${VER}.tar.gz
 			sleep 3
-$Magenta "Extracting a file to ~/openssh-${VER}" $ENDS
+			echo -en "\033[3;00;36m Extracting a file to ~/openssh-${VER} \033[0m"
 			sleep 3
 			# tar -z filter the archive through gzip -x extract 
 			# -v verbosely list files processed -f archive file
