@@ -60,7 +60,7 @@ $Magenta"
 "$ENDS
 			sleep 2
 			sudo apt-get update && sudo apt full-upgrade -y && sudo apt-get autoremove -y
-			echo -e \033[3;00;35m "The System was successfully updated." \033[0m
+			echo -e "\033[3;00;35m The System was successfully updated. \033[0m"
 			anew=yes
 			sleep 3
 			clear
@@ -75,10 +75,9 @@ $Magenta"
 "$ENDS
 			sleep 2
 			sudo apt-get --purge remove openssh-client openssh-server -y
-			sleep 3
 $Magenta"OpenSSH-server && openSSH-client successfully uninstalled."$ENDS
 			anew=yes
-			sleep 5
+			sleep 3
 			clear
 			break
 			;;
@@ -111,10 +110,10 @@ $Magenta"
 							libc6-dev \
 							libc6 \
 							libcrypt-dev -y
-			sleep 3
+			sudo apt install netcat lsof
 $Magenta"Dependances were successfully installed."$ENDS
 			anew=yes
-			sleep 5
+			sleep 3
 			clear
 			break
 			;;
