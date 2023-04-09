@@ -50,7 +50,7 @@ while [ "$anew" = yes ]; do
 			"Install dependances"
 			"Install openSSH-server && openSSH-client"
 			"Create symbolic link"
-			"Recreat symbolic link, new version"
+			"Recreate symbolic link, new version"
 			"Start ssh-latest.service"
 			"What port is activated"
 			"Check the version"
