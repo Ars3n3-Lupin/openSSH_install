@@ -16,8 +16,8 @@ To execute this file we have to chage mode to executable file
 
 After executing the file please, follow instractions on the screen.
 
- Download the folder called "latest" and change owner of the files
- System update && upgrade
+ - Download the folder called "latest" and change owner of the files
+ - System update && upgrade
  Install dependencies
  Compile and install new version openSSH into /opt folder
  If openSSH was upgraded before and now, you want to upgrade openSSH
