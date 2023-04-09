@@ -26,9 +26,9 @@ $Blue"
 ********************************************************************************
 +                   This is an openSSH installation file                       +
 +                                                                              +
-+   0. Download latest folder and change owners of the files insied          +
-+      sudo chown root:root ./latest/*                                       +
-+      Copy four files from latest folder to /usr/lib/systemd/system/        +
++   0. Download latest folder and change owners of the files inside            +
++      sudo chown root:root ./latest/*                                         +
++      Copy four files from latest folder to /usr/lib/systemd/system/          +
 +   1. First, a system update && upgrade                                       +
 +   2. Second, installation dependencies                                       +
 +   3. Third, compiling and install new version openSSH into /opt folder       +
