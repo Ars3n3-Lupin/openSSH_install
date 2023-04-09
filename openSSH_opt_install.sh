@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installation folder
-# /opt/openssh -
+# /opt/openssh
 #
 #
 clear
@@ -26,13 +26,15 @@ $Blue"
 ********************************************************************************
 +                   This is an openSSH installation file                       +
 +                                                                              +
-+   0. Download latest folder and change owners of the files inside            +
++      Download the folder called "latest" and change owner of the files       +
 +      sudo chown root:root ./latest/*                                         +
 +      Copy four files from latest folder to /usr/lib/systemd/system/          +
-+   1. First, a system update && upgrade                                       +
-+   2. Second, installation dependencies                                       +
-+   3. Third, compiling and install new version openSSH into /opt folder       +
-+   4. Fourth, start ssh-latest.service                                        +
++   1. System update && upgrade                                                +
++   2. Install dependencies                                                    +
++   3. Compile and install new version openSSH into /opt folder                +
++   4. If openSSH was upgraded before and now, you want to upgrade openSSH     +
++      again, press 5 to recreate simbolic links                               +
++   5. Start ssh-latest.service                                                +
 +                                                                              +
 ********************************************************************************
 "$ENDS
