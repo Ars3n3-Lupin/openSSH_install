@@ -2,7 +2,8 @@
 
 This is the easyest way how to upgrade openSSH to the latest varion.
 
-1. Please, download the folder "latest" which consists the files we have to copy into /usr/lib/systemd/system/ folder.
+Please, download the folder "latest". This folder consists the files we have to 
+copy into +/usr/lib/systemd/system/+ folder.
 
 
 Download latest folder and change owners of the files insied          +
