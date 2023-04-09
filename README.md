@@ -9,7 +9,10 @@ This folder consists the files we have to copy into /usr/lib/systemd/system/
 After the folder "latest" is downloaded, the owner of the files iside of the folder must be change
 +      sudo chown root:root ./latest/*
 +      sudo cp ./latest/* /usr/lib/systemd/system/
-+      First, a system update && upgrade
-+      Second, installation dependencies
-+      Third, compiling and install new version openSSH into /opt folder
-+      Fourth, start ssh-latest.service 
+
+For installation proces we use the file "./openSSH_opt_install.sh"
+To execute this file we have to chage mode to executable file
++      sudo chmod +x ./openSSH_opt_install.sh
+
+After executing the file please, follow instractions on the screen.
+
