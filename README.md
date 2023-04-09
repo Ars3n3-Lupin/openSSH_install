@@ -16,12 +16,10 @@ To execute this file we have to chage mode to executable file
 
 After executing the file please, follow instractions on the screen.
 
-+      Download the folder called "latest" and change owner of the files       +
-+      sudo chown root:root ./latest/*                                         +
-+      Copy four files from latest folder to /usr/lib/systemd/system/          +
-+   1. System update && upgrade                                                +
-+   2. Install dependencies                                                    +
-+   3. Compile and install new version openSSH into /opt folder                +
-+   4. If openSSH was upgraded before and now, you want to upgrade openSSH     +
-+      again, press 5 to recreate simbolic links                               +
-+   5. Start ssh-latest.service                                                +
+ Download the folder called "latest" and change owner of the files
+ System update && upgrade
+ Install dependencies
+ Compile and install new version openSSH into /opt folder
+ If openSSH was upgraded before and now, you want to upgrade openSSH
+ again, press 5 to recreate simbolic links
+ Start ssh-latest.service
