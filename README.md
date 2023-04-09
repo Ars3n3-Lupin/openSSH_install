@@ -23,3 +23,5 @@ After executing the file please, follow instractions on the screen.
  - If openSSH was upgraded before and now, you want to upgrade openSSH
    again, press 5 to recreate simbolic links
  - Start ssh-latest.service
+ - Check what posrt is activated to use ssh
+ - Check what version of SSH is running
