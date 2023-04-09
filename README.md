@@ -4,7 +4,7 @@ This is the easyest way how to upgrade openSSH to the latest varion.
 At the time of writing this guide, the latest openSSH version is OpenSSH 9.3 released March 15, 2023.
 
 First of all, baskup sshd_config file.
-+  /etc/ssh/sshd_config
++   /etc/ssh/sshd_config
 This config file will be used by new instalation
 
 Please, download the folder called "latest". 
