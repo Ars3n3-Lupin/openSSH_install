@@ -63,3 +63,4 @@ sudo systemctl disable ssh-latest.socket
 sudo systemctl daemon-reload
 
 sudo rm -rf openssh-${Old_VER}
+sudo rm -rf ./openssh_update.sh
