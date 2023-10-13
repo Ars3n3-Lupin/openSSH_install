@@ -34,7 +34,7 @@ sudo apt install libzstd1 \
 sudo apt install netcat lsof
 
 # Set variable. OenSSH version
-VER="9.4p1"
+VER="9.5p1"
 
 sudo mkdir /opt/openssh-${VER}
 cd /opt/openssh-${VER}
