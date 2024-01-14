@@ -9,8 +9,8 @@ clear
 sudo apt-get update && sudo apt full-upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
 
 # Set variable. OenSSH version
-Old_VER="9.4p1"
-VER="9.5p1"
+Old_VER="9.5p1"
+VER="9.6p1"
 
 sudo mkdir /opt/openssh-${VER}
 cd /opt/openssh-${VER}
